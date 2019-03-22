@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseCodeInterpreter", "MorseCodeInterpreter\MorseCodeInterpreter.csproj", "{2C7DBAC2-0FAF-407B-AC58-586E17F8501A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseCodeInterpreter.Test", "MorseCodeInterpreter.Test\MorseCodeInterpreter.Test.csproj", "{ADEAC6D8-CF46-482D-8A01-511CD8300130}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C7DBAC2-0FAF-407B-AC58-586E17F8501A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7DBAC2-0FAF-407B-AC58-586E17F8501A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7DBAC2-0FAF-407B-AC58-586E17F8501A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7DBAC2-0FAF-407B-AC58-586E17F8501A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEAC6D8-CF46-482D-8A01-511CD8300130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEAC6D8-CF46-482D-8A01-511CD8300130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEAC6D8-CF46-482D-8A01-511CD8300130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEAC6D8-CF46-482D-8A01-511CD8300130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1083ED8A-DABA-40D8-A671-994007C55381}
+	EndGlobalSection
+EndGlobal
