@@ -1,0 +1,11 @@
+C:\Users\kamonson\source\repos\MorseCodeInterpreter\MorseCodeInterpreter\bin\Debug\netcoreapp2.1\MorseCodeInterpreter.deps.json
+C:\Users\kamonson\source\repos\MorseCodeInterpreter\MorseCodeInterpreter\bin\Debug\netcoreapp2.1\MorseCodeInterpreter.runtimeconfig.json
+C:\Users\kamonson\source\repos\MorseCodeInterpreter\MorseCodeInterpreter\bin\Debug\netcoreapp2.1\MorseCodeInterpreter.runtimeconfig.dev.json
+C:\Users\kamonson\source\repos\MorseCodeInterpreter\MorseCodeInterpreter\bin\Debug\netcoreapp2.1\MorseCodeInterpreter.dll
+C:\Users\kamonson\source\repos\MorseCodeInterpreter\MorseCodeInterpreter\bin\Debug\netcoreapp2.1\MorseCodeInterpreter.pdb
+C:\Users\kamonson\source\repos\MorseCodeInterpreter\MorseCodeInterpreter\obj\Debug\netcoreapp2.1\MorseCodeInterpreter.csprojAssemblyReference.cache
+C:\Users\kamonson\source\repos\MorseCodeInterpreter\MorseCodeInterpreter\obj\Debug\netcoreapp2.1\MorseCodeInterpreter.csproj.CoreCompileInputs.cache
+C:\Users\kamonson\source\repos\MorseCodeInterpreter\MorseCodeInterpreter\obj\Debug\netcoreapp2.1\MorseCodeInterpreter.AssemblyInfoInputs.cache
+C:\Users\kamonson\source\repos\MorseCodeInterpreter\MorseCodeInterpreter\obj\Debug\netcoreapp2.1\MorseCodeInterpreter.AssemblyInfo.cs
+C:\Users\kamonson\source\repos\MorseCodeInterpreter\MorseCodeInterpreter\obj\Debug\netcoreapp2.1\MorseCodeInterpreter.dll
+C:\Users\kamonson\source\repos\MorseCodeInterpreter\MorseCodeInterpreter\obj\Debug\netcoreapp2.1\MorseCodeInterpreter.pdb
