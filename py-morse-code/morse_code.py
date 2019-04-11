@@ -4,66 +4,68 @@ from node import Node
 class MorseCode:
 
     _code_map = {
-        " ": "  ",
-        "a": ".- ",
-        "b": "-... ",
-        "c": "-.-. ",
-        "d": "-.. ",
-        "e": ". ",
-        "f": "..-. ",
-        "g": "--. ",
-        "h": ".... ",
-        "i": ".. ",
-        "j": ".--- ",
-        "k": "-.- ",
-        "l": ".-.. ",
-        "m": "-- ",
-        "n": "-. ",
-        "o": "--- ",
-        "p": ".--. ",
-        "q": "--.- ",
-        "r": ".-. ",
-        "s": "... ",
-        "t": "- ",
-        "u": "..- ",
-        "v": "...- ",
-        "w": ".-- ",
-        "x": "-..- ",
-        "y": "-.-- ",
+        " ": " ",
+        "a": ".-",
+        "b": "-...",
+        "c": "-.-.",
+        "d": "-..",
+        "e": ".",
+        "f": "..-.",
+        "g": "--.",
+        "h": "....",
+        "i": "..",
+        "j": ".---",
+        "k": "-.-",
+        "l": ".-..",
+        "m": "--",
+        "n": "-.",
+        "o": "---",
+        "p": ".--.",
+        "q": "--.-",
+        "r": ".-.",
+        "s": "...",
+        "t": "-",
+        "u": "..-",
+        "v": "...-",
+        "w": ".--",
+        "x": "-..-",
+        "y": "-.--",
         "z": "--.."
     }
 
-    @staticmethod
-    def convert_to(value):
-        result = ""
+    @classmethod
+    def convert_to(cls, value):
+        if not value:
+            return ""
+        else:
+            results = [
+                cls._code_map[c.lower()]
+                for c in value
+            ]
 
-        if value != "":
-            for c in value:
-                result += MorseCode._code_map[c.lower()]
+            return " ".join(results)
 
-        return result.rstrip()
-
-    @staticmethod
-    def convert_from(value):
-        result = ""
-
-        value = value + " "
+    @classmethod
+    def convert_from(cls, value):
+        value = f"{value} "
 
         words = value.split("  ")
 
-        for w in words:
-            result += MorseCode._convert_from_word(w) + " "
+        results = [
+            cls._convert_from_word(w)
+            for w in words
+        ]
 
-        return result.rstrip()
+        return " ".join(results)
 
-    @staticmethod
-    def _convert_from_word(word):
-        result = ""
+    @classmethod
+    def _convert_from_word(cls, word):
+        results = []
         chars = word.split(" ")
 
         for c in chars:
-            for k, v in MorseCode._code_map.items():
-                if v == (c + " "):
-                    result += k
+            for k, v in cls._code_map.items():
+                if v == c:
+                    results.append(k)
 
-        return result
+        return "".join(results)
